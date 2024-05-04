@@ -1,0 +1,47 @@
+.sfondo-navbar {
+    background-color: var(--mint);
+}
+
+.navbarFont{
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 30px;
+    color: var(--acc);
+}
+
+.navbarFont:hover {
+    color: var(--acc);
+    scale: 1.03;
+    transition: 0.3s;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    margin-inline: 12px;
+    /*?? da vedere in assistenza */
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3); */
+}
+.navbar-lang{
+    white-space: nowrap;
+}
+
+.dropdown-menu {
+    --bs-dropdown-min-width:unset;
+    width: fit-content;
+}
+
+.page-link.active, .active > .page-link {
+    
+    color: var(--bs-pagination-active-color);
+    background-color: var(--mint);
+    border-color: var(--bs-pagination-active-border-color);
+}
+
+.page-link {
+    color: var(--mint);
+    background-color: var(--bs-pagination-bg);
+    border: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);
+}

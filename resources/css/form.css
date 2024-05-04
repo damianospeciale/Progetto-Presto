@@ -1,0 +1,101 @@
+.container {
+    margin-top: 50px;
+}
+
+.custom-form {
+    background-color: var(--mint); 
+    padding: 20px; 
+    border-radius: 10px; 
+    max-width: 400px; 
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    box-shadow: 10px 8px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+.custom-form h1 {
+    color: var(--darkgrey); 
+    text-align: center;
+}
+
+
+.custom-form label {
+    color: var(--darkgrey);
+}
+
+.custom-input {
+    background-color: white;
+    color: var(--darkgrey); 
+    border-radius: 5px; 
+    padding: 8px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.custom-input:hover {
+    background-color: #f0f0f0;
+    border-color:var(--darkgrey);
+}
+
+.custom-button {
+    background-color: var(--acc);
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    transition: background-color 0.3s ease; 
+}
+
+.custom-button:hover {
+    background-color: var(--acchover);
+}
+
+.custom-form-register {
+    background-color: var(--mint); 
+    padding: 30px; 
+    border-radius: 10px; 
+    max-width: 600px; 
+    margin: auto;
+    /* margin-top: 10%;
+    margin-bottom: 10%; */
+    box-shadow: 10px 8px 30px rgba(0, 0, 0, 0.2);
+
+}
+.custom-card-dettagli {
+    background-color: white; 
+    padding: 30px; 
+    border-radius: 10px; 
+    max-width: 600px; 
+    margin: auto;
+    /* margin-top: 10%;
+    margin-bottom: 10%; */
+    box-shadow: 10px 8px 30px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.register-link {
+    color: var(--mint); 
+}
+
+.custom-form-ann {
+    background-color: var(--acc); 
+    padding: 40px; 
+    border-radius: 10px; 
+    max-width: 600px; 
+    margin: auto;
+}
+
+.button-accedi{
+    background-color: var(--acc);
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+}
+
+.button-accedi:hover{
+    background-color: var(--acchover);
+    transition: 0.3s ease; 
+}

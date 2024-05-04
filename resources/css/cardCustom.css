@@ -1,0 +1,30 @@
+/* 
+effetto da sistemare */
+
+
+
+.zoom {
+    transition: transform 0.3s;
+    border-radius: 20px; 
+}
+
+.zoom:hover {
+    transform: scale(1.05); 
+}
+
+.scroll {
+    height: 70px;
+}
+
+.noannounce-back{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 500px;
+    height: 700px;
+
+}
+
+.border-image {
+    border-radius: 5px;
+}

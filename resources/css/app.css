@@ -1,0 +1,79 @@
+@import 'bootstrap';
+
+@import '/resources/css/font.css';
+
+@import '/resources/css/colors.css';
+
+@import "@fortawesome/fontawesome-free/css/all.css";
+
+@import '/resources/css/searchbar.css';
+
+@import '/resources/css/cardCustom.css';
+
+@import '/resources/css/navbar.css';
+
+@import '/resources/css/button.css';
+
+@import '/resources/css/form.css';
+
+@import '/resources/css/footer.css';
+
+
+/* linguaggio */
+
+.img-preview{
+    height: 200px;
+    width: 200px;
+}
+
+
+.carousel-control-next {
+    height: fit-content;
+    top: 40%;
+    align-items: baseline;
+    justify-content: center;
+    width: 13%;
+    padding: 15px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: var(--acc);
+}
+
+.carousel-control-prev {
+    height: fit-content;
+    top: 40%;
+    align-items: baseline;
+    justify-content: center;
+    width: 13%;
+    padding: 15px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: var(--acc);
+
+}
+
+
+.carousel-control-nextREV {
+    height: fit-content;
+    top: 40%;
+    align-items: baseline;
+    justify-content: center;
+    width: 13%;
+    padding: 15px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: var(--acc);
+}
+
+.carousel-control-prevREV {
+    height: fit-content;
+    top: 40%;
+    align-items: baseline;
+    justify-content: center;
+    width: 13%;
+    padding: 15px;
+    color: #fff;
+    border-radius: 20px;
+    background-color: var(--acc);
+
+}
